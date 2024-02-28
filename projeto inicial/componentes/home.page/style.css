@@ -1,0 +1,70 @@
+body {
+    background-image: url(https://img.freepik.com/vetores-gratis/desenho-abstrato-com-estrelas-no-azul_53876-59272.jpg?t=st=1709090861~exp=1709094461~hmac=a4172f65254b44ad17b525063ab1af2bd12610f7ce359bfe61fb63f9c064dcd5&w=740);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+
+.ola {
+    /* background-color:rgba(0, 0, 0, 0.6); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    border-radius: 1rem;
+}
+
+.ola h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.ola input {
+    
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: none;
+    font-size:larger ;
+
+}
+.primario {
+background-image: url(https://img.freepik.com/vetores-premium/cone-de-perfil-de-usuario-em-estilo-plano-ilustracao-em-vetor-avatar-membro-em-fundo-isolado-conceito-de-negocio-de-sinal-de-permissao-humana_157943-15752.jpg?w=740);
+background-position: left ;
+background-repeat: no-repeat;
+background-size: 35px;
+text-align: center;
+}
+
+.secudario {
+    background-image: url(https://cdn-icons-png.freepik.com/256/7270/7270617.png?uid=R122525785&ga=GA1.1.35868253.1709054950&);
+    background-position:left ;
+    background-repeat: no-repeat;
+    background-size: 29px;
+    text-align: center;
+}
+
+
+
+ .ola button{
+    padding: 10px;
+   border:none;
+   width: 99%;
+border-radius:10px ;
+background-color: rgb(192, 192, 255);
+
+   
+ }
+
+ .ola button:hover{
+    background-color: aquamarine;
+    cursor:pointer;
+ }
